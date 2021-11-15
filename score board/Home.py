@@ -48,9 +48,6 @@ for frame in (frame1,frame2, frame3,frame4):
 
 
 
-
-
-
 # ====================== Frame one Code (Home Screen) =========================
 
 
@@ -76,8 +73,6 @@ b2.place(relx = 0.5, rely = 0.8,anchor="center")
 
 b3 = Button(frame1, text ="Exit", style='E.TButton', command = root.destroy)
 b3.place(relx = 0.99, rely = 0.8, anchor="e")
-
-
 
 
 
@@ -179,10 +174,6 @@ bh.place(relx = 0.5, rely = 0.9,anchor="center")
 
 
 
-
-
-
-
 # =========================================== Frame Three Code (My scorecard Screen) =================================================
 
 
@@ -242,7 +233,6 @@ def team1_score():
     team1he.place(relx=0.1, rely = 0.4 , anchor="center")
 
     inrun()
-
 
 
 
@@ -373,7 +363,6 @@ def inrun2():
 
 
 
-
 # Selecting Teams
 
 name1= tkinter.Label(frame3,text="Team 1", fg='#6F0545', font=("Segoe UI", 16),bg="#ECF0F3")
@@ -423,9 +412,6 @@ line3.place(relx=0.5, rely = 0.35 , anchor="center")
 
 bn = Button(frame3, text ="Home", style='N.TButton' , command= lambda: show_frame(frame1))
 bn.place(relx = 0.5, rely = 0.95,anchor="center")
-
-
-
 
 
 
@@ -490,7 +476,6 @@ bn1.place(relx = 0.3, rely = 0.9,anchor="e")
 
 bn2 = Button(frame4, text ="Home", style='N.TButton' , command= lambda: show_frame(frame1))
 bn2.place(relx = 0.7, rely = 0.9,anchor="w")
-
 
 
 # Function Calls
