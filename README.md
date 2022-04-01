@@ -13,4 +13,4 @@ Interactive cricket score board to calculate scores of teams using python GUI
 ![image](https://user-images.githubusercontent.com/72290650/141752253-e69a6d67-208e-4b22-8c3c-925dfc00afcc.png)
 
 # Note
-If you want to upgrade this project then go ahead it is highly appreciated. 
+If you want to upgrade this project then go ahead it's highly appreciated. 
